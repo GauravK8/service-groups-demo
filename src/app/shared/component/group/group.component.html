@@ -1,0 +1,24 @@
+<div class="card border-0">
+    <div class="card-body border-bottom">
+        <h5 class="card-title mb-0 pointer" (click)="expand=!expand">
+            <input type="checkbox" [name]="group.name" [value]="group.value" [(ngModel)]="group.checked"
+                (click)="$event.stopPropagation()" />
+            <label for="facial">&nbsp;{{group.value}}</label>
+            <img [src]="expand ? 'assets/icons/caret-up.svg' : 'assets/icons/caret-down.svg'" alt=""
+                class="float-right" />
+        </h5>
+        
+        <div class="card-text border-left ml-5 pl-4" *ngIf="expand">
+            <div class="d-flex align-items-center h5" *ngFor="let item of group.subGroups;let si = index;">
+                <input type="checkbox" [name]="item.name" [value]="item.value" [(ngModel)]="item.checked" />
+                <label [for]="item.name" (click)="item.checked=!item.checked"
+                    class="mt-1">&nbsp;{{item.value}}</label>
+            </div>
+            
+            <div class="d-flex">
+                <button class="btn btn-light" (click)="onAddSubgroup()"> + Add a subgroup</button>
+            </div>
+        </div>
+
+    </div>
+</div>

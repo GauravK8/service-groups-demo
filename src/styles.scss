@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:hover
+{
+    background-color: #33b8b1;
+    border-color: #33b8b1;
+}
+
+.pointer {
+    cursor: pointer;
+}

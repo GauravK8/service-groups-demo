@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "name": "facial",
+        "value": "Facial",
+        "checked": false,
+        "subGroups": []
+    },
+    {
+        "id": 1,
+        "name": "clinicalpeel",
+        "value": "Clinical Peel",
+        "checked": false,
+        "subGroups": [
+            {
+                "name": "superficial",
+                "value": "Superficial",
+                "checked": false
+            },
+            {
+                "name": "alluvial",
+                "value": "Alluvial",
+                "checked": false
+            },
+            {
+                "name": "complete",
+                "value": "Complete",
+                "checked": false
+            },
+            {
+                "name": "fully",
+                "value": "Fully",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "IPL",
+        "value": "IPL",
+        "checked": false,
+        "subGroups": []
+    },
+    {
+        "id": 3,
+        "name": "Tanning",
+        "value": "Tanning",
+        "checked": false,
+        "subGroups": []
+    }
+]
