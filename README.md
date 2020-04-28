@@ -3,13 +3,17 @@
 ## To run with Docker environment.
 
 Run `docker-compose up -d --build`
-OR
+
+or 
+
 Run `npm run start-docker`
 
 ## To stop docker 
 
 Run `docker stop service-groups-demo`
-OR
+
+or 
+
 Run `npm run stop-docker`
 
 
