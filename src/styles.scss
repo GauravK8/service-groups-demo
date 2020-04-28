@@ -3,13 +3,22 @@
 .btn-primary,
 .btn-primary:active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:focus, .btn-primary.focus,
-.btn-primary:hover
-{
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover {
     background-color: #33b8b1;
     border-color: #33b8b1;
 }
 
 .pointer {
     cursor: pointer;
+}
+
+.btn-light-text,
+.btn-light-text:active,
+.btn-light-text:not(:disabled):not(.disabled):active,
+.btn-light-text:focus,
+.btn-light-text.focus,
+.btn-light-text:hover {
+    color: #33b8b1;
 }

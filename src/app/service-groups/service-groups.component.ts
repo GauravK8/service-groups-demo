@@ -23,9 +23,8 @@ export class ServiceGroupsComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataService.getGroups().subscribe(response => {
-      console.log(response);
       this.group = response;
-    })
+    });
   }
 
   showAddSubGroup(groupId: number) {
